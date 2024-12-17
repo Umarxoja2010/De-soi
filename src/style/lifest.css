@@ -1,0 +1,32 @@
+.lifest_wrapper{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.hour_img_c{
+    width: 330px;
+    height: 430px;
+}
+
+@media (max-width:1100px) {
+    .lifest_wrapper{
+        gap: 10;
+    }
+  
+}
+@media (max-width:900px) {
+.lifest_con2{
+    display: none;
+    
+}
+.hour_img_c{
+    width: 330px;
+    height: 430px;
+}
+}
+@media(max-width:700px) {
+    .lifest_wrapper{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}

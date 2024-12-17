@@ -1,0 +1,37 @@
+.tom{
+    margin-bottom: 138px;
+}
+.tom_wrapper{
+display: flex;
+align-items: center; 
+gap: 50px;
+}
+.tom_card2 h2{
+    font-family: var(--third-family);
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 148%;
+    color: #000;
+    margin-bottom: 40px;
+}
+.tom_card2 span{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 12px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #000;
+margin-bottom: 17px;
+display: block;
+}
+.tom_card2 p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 170%;
+    color: #000;
+margin-bottom: 40px;
+}
+.tom_card3 img{
+
+}

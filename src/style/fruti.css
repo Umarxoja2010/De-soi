@@ -1,0 +1,79 @@
+.fruti{
+    margin-bottom: 60px;
+}
+.fruti_wrapper{
+    display: flex;
+    align-items: center;
+    gap: 106px;
+}
+.fruti_content span{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+    margin-left: 80px;
+}
+.fruti_content h2{
+    font-family: var(--third-family);
+font-weight: 700;
+font-size: 60px;
+line-height: 107%;
+text-align: center;
+color: #000;
+margin-top: 8px;
+margin-bottom: 16px;
+}
+.fruti_content p{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 14px;
+line-height: 170%;
+color: #000;
+margin-bottom: 22px;
+}
+.fruti_content a{
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+text-align: center;
+color: #000;
+}
+@media(max-width:1000px){
+    .fruti_wrapper{
+        gap: 80px;
+    }
+    .fruti_content h2{
+        font-size: 40px;
+    }
+    .fruti_content span{
+        font-size: 9px;
+    }
+.fruti_content p{
+    font-size: 12px;
+}
+.fruti_content a {
+    font-size: 9px;
+}
+}
+@media(max-width:600px){
+    .fruti_wrapper{
+        gap: 50px;
+    }
+    .fruti_content a{
+        font-size: 11px;
+    }
+    .fruti_content p{
+        font-size: 14px;
+
+    }
+    .fruti_content h2{
+        font-size: 45px;
+    }
+}

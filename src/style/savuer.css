@@ -1,0 +1,50 @@
+.savuer{
+    margin-bottom: 96px;
+}
+.savuer_wrapper{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+}
+.sauver_card {
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 14px;
+line-height: 170%;
+text-align: center;
+color: #000;
+padding: 24px 80px;
+}
+.sauver_card img:nth-of-type(2){
+
+   margin-top: 24px;
+   margin-bottom: 40px;
+   margin-left: 100px;
+    
+}
+.sauver_card img:nth-of-type(2){
+    margin-right: 100px;
+}
+
+
+@media(max-width:1000px){
+            .sauver_card:nth-of-type(2){
+display: none;
+            }                                                    
+                                                            
+}
+
+@media(max-width:700px){
+            .sauver_card:nth-of-type(2){
+display: none;
+            }                                                    
+                                                            
+            .sauver_card:nth-of-type(3){
+display: none;
+            }                                                    
+                                                            
+}
+@media(max-width:1100px){
+    .sauver_card:nth-of-type(3){
+        display: none;
+                    }     
+}

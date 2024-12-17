@@ -1,0 +1,26 @@
+.happy_wrapper{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+@media(max-width:1100px) {
+    .happy_wrapper{
+        gap: 20px;
+    }
+}
+@media(max-width:900px) {
+    .happy_wrapper{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      gap: 15px;
+    }
+    .happy_con3{
+        display: none;
+    }
+}
+@media(max-width:700px) {
+    .happy_wrapper{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}

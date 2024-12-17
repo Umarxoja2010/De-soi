@@ -1,0 +1,60 @@
+.hour_card h2{
+    font-family: var(--third-family);
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 128%;
+    text-align: center;
+    color: #000;
+    margin-bottom: 8px;
+}
+.hour_card span{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 14px;
+line-height: 170%;
+text-align: center;
+color: #000;
+display: block;
+margin-bottom: 8px;
+}
+.hour_card div{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.hour_card p:nth-of-type(1){
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 12px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #000;
+margin-bottom: 16px;
+width: 400px;
+}
+.hour_card p:nth-of-type(2){
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #000;
+    margin-top: 32px;
+width: 400px;
+}
+@media(max-width:1100px) {
+    .hour_card p:nth-of-type(2){
+        font-size: 8px; 
+        width: 250px;
+    }
+    .hour_card p:nth-of-type(1){
+        font-size: 8px;
+        width: 250px;
+    }
+    .hour_card div{
+        gap: 30px;
+    }
+    .hour_card h2{
+        font-size: 40px
+    }
+}

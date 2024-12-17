@@ -1,0 +1,55 @@
+.hero2{
+    margin-top: 50px;
+}
+.hero2 h1{
+    font-family: var(--third-family);
+font-weight: 700;
+font-size: 70px;
+line-height: 91%;
+text-align: center;
+color: #000;
+margin-bottom: 62px;
+}
+.hero2_wrapper{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.her2_con1 h2{
+    font-family: var(--third-family);
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 128%;
+    text-align: center;
+    color: #000;
+    margin-bottom: 8px;
+}
+.her2_con1 span{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 14px;
+line-height: 170%;
+text-align: center;
+color: #000;
+margin-bottom: 32px;
+display: block;
+}
+.hero2_wrapper p{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 12px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #000;
+margin-bottom: 32px;
+}
+@media (max-width:1100px) {
+    .hero2_wrapper{
+        gap: 20px;
+    }
+}
+@media(max-width:900px) {
+    .hero2_con3{
+        display: none;
+    }
+}
